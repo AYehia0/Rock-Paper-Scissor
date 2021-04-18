@@ -1,0 +1,74 @@
+/*Adding fonts using google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Oswald;
+}
+
+body {
+    background-color: #1e81b0;
+}
+
+header {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color :  #eeeee4;
+}
+
+.game-board {
+    border: 3px solid white;
+    width: 200px;
+    margin: 20px auto;
+    font-size: 25px;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+    padding: 15px ;
+}
+
+/*Styling the user badge and computer badge*/
+
+.badge {
+    border: 2px solid red;
+    background-color: wheat;
+    font-size: 20px;
+}
+
+#user-badge {
+    position: absolute;
+    top: 18px;
+    left: -20px;
+}
+#computer-badge {
+    position: absolute;
+    top: 18px;
+    right: -40px;
+}
+
+.winning {
+    text-align: center;
+    font-size: 30px;
+}
+ 
+.choices {
+    text-align: center;
+}
+.choice {
+    display: inline-block;
+    padding-top: 20px;
+    margin: 0 10px;
+}
+
+.choice > img {
+    border-radius: 25px;
+}
+
+.move {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+}
